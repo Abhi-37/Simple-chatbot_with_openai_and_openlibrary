@@ -14,6 +14,18 @@ _**Display Results:**_ If books matching the query are found, the chatbot displa
 
 _**Repeat or Quit:**_ After displaying the search results, the chatbot prompts the user to enter another book title to search for. The user can continue searching for books or type 'quit' to exit the program.
 
+_**Enter Your Search Query:**_
+After running the script, you will see a prompt: Enter a book title to search (or 'quit' to exit):.
+Example Type _The Lord of Rings_ and press Enter.
+
+**View the Search Results:**
+The script will search the Open Library database for books matching your query.
+
+**Search for Another Book or Quit:**
+After viewing the search results, you can enter another book title to search for more books.
+If you want to exit the script, simply type quit and press Enter.
+
+**Notes**
 **Running the Program**
 **_To run the Book Search Chatbot:_**
 Make sure you have Python installed on your system.
@@ -22,12 +34,10 @@ Open a terminal or command prompt and navigate to the directory where the script
 Run the script by executing the command: python book_search_chatbot.py
 Follow the prompts to search for books by entering their titles. Type 'quit' to exit the program.
 
+This chatbot uses the Open Library API to search for books. Since it doesn't require an API key, there's no need to sign up or obtain any credentials to use it.
+The search functionality may not always return accurate results, depending on the quality and completeness of the data available in the Open Library database.
+
 **Dependencies**
 This program requires the requests library to make HTTP requests to the Open Library API. You can install it using pip:
-Copy code
 pip install requests
 
-**Notes**
-This chatbot uses the Open Library API to search for books. Since it doesn't require an API key, there's no need to sign up or obtain any credentials to use it.
-
-The search functionality may not always return accurate results, depending on the quality and completeness of the data available in the Open Library database.
