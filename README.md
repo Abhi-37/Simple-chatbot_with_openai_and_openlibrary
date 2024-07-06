@@ -32,7 +32,7 @@ Make sure you have Python installed on your system.
 Download the provided Python script (book_search_chatbot.py) and save it in your desired directory.
 Open a terminal or command prompt and navigate to the directory where the script is saved.
 Run the script by executing the command: python book_search_chatbot.py
-Follow the prompts to search for books by entering their titles. Type 'quit' to exit the program.
+Follow the prompts to search for books by entering their titles. Type 'quit' to exit the program
 
 This chatbot uses the Open Library API to search for books. Since it doesn't require an API key, there's no need to sign up or obtain any credentials to use it.
 The search functionality may not always return accurate results, depending on the quality and completeness of the data available in the Open Library database.
